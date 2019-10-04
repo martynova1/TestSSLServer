@@ -88,7 +88,7 @@ public class TestSSLServer {
 			usage();
 		}
 		String name = args[0];
-		int port = 443;
+		int port = 3269;
 		if (args.length == 2) {
 			try {
 				port = Integer.parseInt(args[1]);
